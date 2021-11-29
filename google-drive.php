@@ -11,7 +11,7 @@ function getClient()
     $client = new Google_Client();
 
     $client->setApplicationName('Google Drive API PHP Quickstart');
-    $client->setRedirectUri('http://localhost/test-examples/php/google-drive-api/oauth2callback.php');
+    $client->setRedirectUri('http://localhost/native_google_drive/oauth2callback.php');
 
     $client->setScopes(Google_Service_Drive::DRIVE);
     $client->setAuthConfig('credentials.json');
